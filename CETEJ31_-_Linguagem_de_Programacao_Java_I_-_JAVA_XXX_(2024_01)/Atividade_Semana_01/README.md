@@ -4,7 +4,7 @@
 
 **1) Observe o seguinte Diagrama de Classes:**
 
-![Diagrama de classes - Atividade Semana 1](/CETEJ31_-_Linguagem_de_Programacao_Java_I/Images/Diagrama_de_classe_-_Atividade_semana_1.png)
+![Diagrama de classes - Atividade Semana 1](/CETEJ31_-_Linguagem_de_Programacao_Java_I/Images/Diagrama_de_Classe_-_Atividade_Semana_01.png)
 
 **2) DESENVOLVA UMA APLICAÇÃO NA LINGUAGEM DE PROGRAMAÇÃO JAVA ATENDENDO OS SEGUINTES REQUISITOS:**
 - a) Todos os métodos construtores default (que não possuem parâmetros formais em sua assinatura) deverão iniciar com 0 (zeros) atributos que sejam de tipos numerais (int, double, float, etc.) e com espaço em branco (“ “) aqueles que forem de tipo literais (char, String e etc).
@@ -30,12 +30,12 @@
 
 
 &nbsp;
-### INFORMAÇÕES SOBRE O DESENVOLVIMENTO
-1. O projeto foi desenvolvido utilizando o Sublime.
+### INFORMAÇÕES SOBRE O DESENVOLVIMENTO:
+1. O projeto foi desenvolvido utilizando o Notepad++.
 1. O projeto foi desenvolvido em Java "puro", sem o uso de nenhum Framework.
-1. Para rodar use o terminal:
-    - Todos os arquivos devem estar dentro do mesmo diretório (pasta).
-    - Dentro do diretório rode o comando **$ javac Teste.java**    _//isso irá criar os bytecodes (arquivos .class)._
-    - Dentro do diretório rode o comando **$ java Teste**          _//isso irá rodar o bytecode._
+1. Para rodar, siga as instruções abaixo:
+    - Certifique-se de que todos os arquivos estejam dentro do mesmo diretório (pasta).
+    - No diretório, execute o comando **$ javac Teste.java** para compilar o código-fonte. Isso criará os bytecodes (arquivos .class).
+    - Em seguida, execute o comando **$ java Teste** para executar o programa.
 
-Obs.: Se aparecer a lista de Veiculos impressos no terminal deu tudo certo!!!
+Obs.: Se a lista de veículos for impressa no terminal, o programa funcionou corretamente!
