@@ -1,10 +1,10 @@
-# UTFPR - JAVA I - Pós Graduação Tecnologia Java
+# UTFPR - JAVA I - Pós Graduação em Tecnologia Java
 
-## Atividade 01 – Implementação modelo Motor/Veículo/Teste
+## Atividade 01 – Implementação Motor/Veículo/Teste
 
 **1) Observe o seguinte Diagrama de Classes:**
 
-![Diagrama de classes - Atividade Semana 1](/CETEJ31_-_Linguagem_de_Programacao_Java_I/Images/Diagrama_de_Classe_-_Atividade_Semana_01.png)
+![Diagrama de Classes - Atividade Semana 01](/CETEJ31_-_Linguagem_de_Programacao_Java_I_-_JAVA_XXX_(2024_01)/Images/Diagrama_de_Classe_-_Atividade_Semana_01.png)
 
 **2) DESENVOLVA UMA APLICAÇÃO NA LINGUAGEM DE PROGRAMAÇÃO JAVA ATENDENDO OS SEGUINTES REQUISITOS:**
 - a) Todos os métodos construtores default (que não possuem parâmetros formais em sua assinatura) deverão iniciar com 0 (zeros) atributos que sejam de tipos numerais (int, double, float, etc.) e com espaço em branco (“ “) aqueles que forem de tipo literais (char, String e etc).
@@ -32,8 +32,8 @@
 &nbsp;
 ### INFORMAÇÕES SOBRE O DESENVOLVIMENTO:
 1. O projeto foi desenvolvido utilizando o Notepad++.
-1. O projeto foi desenvolvido em Java "puro", sem o uso de nenhum Framework.
-1. Para rodar, siga as instruções abaixo:
+1. O código foi desenvolvido em Java "puro", sem o uso de nenhum Framework.
+1. Para rodar o programa, siga as instruções abaixo:
     - Certifique-se de que todos os arquivos estejam dentro do mesmo diretório (pasta).
     - No diretório, execute o comando **$ javac Teste.java** para compilar o código-fonte. Isso criará os bytecodes (arquivos .class).
     - Em seguida, execute o comando **$ java Teste** para executar o programa.
