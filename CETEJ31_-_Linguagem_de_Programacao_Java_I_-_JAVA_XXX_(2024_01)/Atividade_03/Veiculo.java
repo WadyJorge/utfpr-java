@@ -1,4 +1,4 @@
-public class Veiculo {
+public abstract class Veiculo {
 
     private String placa;
     private String marca;
@@ -20,10 +20,11 @@ public class Veiculo {
     }
 
     /*
-     * Construtor recebendo parâmetros para o objeto Veiculo e instanciando o
-     * objeto motor sem parâmetros
+     * Construtor recebendo parametros para o objeto Veiculo e instanciando o objeto motor sem
+     * parâmetros
      */
-    public Veiculo(String placa, String marca, String modelo, String cor, float velocMax, int qtdRodas) {
+    public Veiculo(String placa, String marca, String modelo, String cor, float velocMax,
+            int qtdRodas) {
         this.placa = placa;
         this.marca = marca;
         this.modelo = modelo;
@@ -34,11 +35,11 @@ public class Veiculo {
     }
 
     /*
-     * Construtor recebendo parâmetros para o objeto Veiculo e instanciando o objeto
-     * motor com parâmetros
+     * Construtor recebendo parâmetros para o objeto Veiculo e instanciando o objeto motor com
+     * parâmetros
      */
-    public Veiculo(String placa, String marca, String modelo, String cor, float velocMax, int qtdRodas, int qtdPist,
-            int potencia) {
+    public Veiculo(String placa, String marca, String modelo, String cor, float velocMax,
+            int qtdRodas, int qtdPist, int potencia) {
         this.placa = placa;
         this.marca = marca;
         this.modelo = modelo;
@@ -101,7 +102,10 @@ public class Veiculo {
         this.qtdRodas = qtdRodas;
     }
 
-    // Sobrecarga do método toString para imprimir o objeto
+    // Método abstrato usado no cálculo de velocidade das subclasses Passeio e Carga
+    abstract float calcVel(float velocMax);
+
+    // Sobrecarga do método toString para imprimir o objeto Veiculo
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
