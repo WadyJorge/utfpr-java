@@ -27,7 +27,7 @@ public final class Passeio extends Veiculo {
     return velocidade;
   }
 
-  // Sobrecarga do método toString para imprimir o objeto Veiculo Passeio
+  // Sobrescrita do método toString para imprimir o objeto Veiculo Passeio
   @Override
   public String toString() {
     StringBuilder builder = new StringBuilder();

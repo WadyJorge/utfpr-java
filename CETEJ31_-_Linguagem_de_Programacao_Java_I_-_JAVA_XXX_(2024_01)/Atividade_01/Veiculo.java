@@ -101,7 +101,7 @@ public class Veiculo {
         this.qtdRodas = qtdRodas;
     }
 
-    // Sobrecarga do método toString para imprimir o objeto
+    // Sobrescrita do método toString para imprimir o objeto
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();

@@ -105,7 +105,7 @@ public abstract class Veiculo {
     // Método abstrato usado no cálculo de velocidade das subclasses Passeio e Carga
     abstract float calcVel(float velocMax);
 
-    // Sobrecarga do método toString para imprimir o objeto Veiculo
+    // Sobrescrita do método toString para imprimir o objeto Veiculo
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
