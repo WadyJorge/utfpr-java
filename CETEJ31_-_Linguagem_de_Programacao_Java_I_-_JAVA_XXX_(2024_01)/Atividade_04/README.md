@@ -1,4 +1,4 @@
-# UTFPR - JAVA I - Pós Graduação Tecnologia Java
+# UTFPR - JAVA I - Pós Graduação em Tecnologia Java
 
 ## Atividade 04 – Interface
 
@@ -6,7 +6,7 @@
 
 Embora o conceito de Herança Múltipla, isto é, uma classe (filha) ser criada com base em mais de uma classe base (mãe), vide Figura 1, seja possível e comum em projetos, é importante ressaltar que existem tecnologias que não comportam este tipo de implementação.
 
-![Projeto de Herança Multipla - Não suportada pelo Java](/CETEJ31_-_Java_I/Images/Projeto_de_Heranca_Multipla_-_Nao_suportada_pelo_Java.png)
+![Projeto de Herança Múltipla - Não suportada pelo Java](/CETEJ31_-_Linguagem_de_Programacao_Java_I_-_JAVA_XXX_(2024_01)/Images/Projeto_de_Heranca_Multipla_-_Nao_suportada_pelo_Java.png)
 
 Entre estas tecnologias se encontra a Java que, para resolver esta situação, desenvolveu uma estrutura de dados denominada Interface.
 
@@ -14,7 +14,7 @@ Entre estas tecnologias se encontra a Java que, para resolver esta situação, d
 
 Obs.: As alterações e novos elementos referentes à atividade encontram-se marcadas em amarelo e laranja (relacionamentos) no diagrama.
 
-![Diagrama de classes - Atividade Semana 4](/CETEJ31_-_Java_I/Images/Diagrama_de_classe_-_Atividade_semana_4.png)
+![Diagrama de Classes - Atividade 04](/CETEJ31_-_Linguagem_de_Programacao_Java_I_-_JAVA_XXX_(2024_01)/Images/Diagrama_de_Classes_-_Atividade_04.png)
 
 **2) UTILIZE O CÓDIGO DESENVOLVIDO NA ATIVIDADE 03 E DESENVOLVA OS NOVOS ELEMENTOS APRESENTADOS NO DIGRAMA ACIMA. ABAIXO, SEGUE A LISTA DE REQUISITOS A SEREM SEGUIDOS:**
 
@@ -84,10 +84,11 @@ iv. Que as classes filhas (Passeio e Carga) sejam herdadas;
 
 &nbsp;
 ### INFORMAÇÕES SOBRE O DESENVOLVIMENTO
-1. O projeto foi desenvolvido sem o uso de IDE, utilizando o Notepad++.
-1. O projeto foi desenvolvido em Java "puro", sem o uso de nenhum Framework.
-1. Para rodar use o terminal:
-    - Todos os arquivos devem estar dentro da mesma pasta.
-    - Dentro da pasta rode o comando **$ javac Teste.java**    _//isso irá criar os bytecodes (arquivos .class)._
-    - Dentro da pasta rode o comando **$ java Teste**          _//isso irá rodar o bytecode._
-    - No próprio prompt irá abrir o menu principal para fazer as operações.
+1. O projeto foi desenvolvido utilizando o Notepad++.
+2. O código foi desenvolvido em Java "puro", sem o uso de nenhum Framework.
+3. Para rodar o programa, siga as instruções abaixo:
+    - Certifique-se de que todos os arquivos estejam dentro do mesmo diretório (pasta).
+    - No diretório, execute o comando **$ javac Teste.java** para compilar o código-fonte. Isso criará os bytecodes (arquivos .class).
+    - Em seguida, execute o comando **$ java Teste** para executar o programa.
+
+Obs.: Se a lista de veículos for impressa no terminal, o programa funcionou corretamente!
