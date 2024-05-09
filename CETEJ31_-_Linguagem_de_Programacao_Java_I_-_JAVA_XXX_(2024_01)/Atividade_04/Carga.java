@@ -1,4 +1,4 @@
-public final class Carga extends Veiculo {
+public final class Carga extends Veiculo implements Calcular {
 
     private int cargaMax;
     private int tara;
@@ -15,7 +15,7 @@ public final class Carga extends Veiculo {
         this.tara = tara;
     }
 
-    // Getters 
+    // Getters
     public int getCargaMax() {
         return this.cargaMax;
     }
@@ -33,10 +33,26 @@ public final class Carga extends Veiculo {
         this.tara = tara;
     }
 
-    /// Método usado no cálculo de velocidade da subclasse Carga
+    // Sobrescrita do método presente na superclasse Veiculo (usado no cálculo de velocidade)
+    @Override
     public float calcVel(float velocMax) {
         float velocidade = (velocMax * 100000);
         return velocidade;
+    }
+
+    // Sobrescrita do método presente na interface Calcular (usado na soma dos valores contidos nos atributos numéricos)
+    @Override
+    public int calcular() {
+        int somaNumeros = 0;
+
+        somaNumeros += getVelocMax();
+        somaNumeros += getQtdRodas();
+        somaNumeros += getMotor().getQtdPist();
+        somaNumeros += getMotor().getPotencia();
+        somaNumeros += getCargaMax();
+        somaNumeros += getTara();
+
+        return somaNumeros;
     }
 
     // Sobrescrita do método toString para imprimir o objeto Veiculo Carga
@@ -48,7 +64,8 @@ public final class Carga extends Veiculo {
         builder.append("Marca: ").append(this.getMarca()).append("\n");
         builder.append("Modelo: ").append(this.getModelo()).append("\n");
         builder.append("Cor: ").append(this.getCor()).append("\n");
-        builder.append("Velocidade Máx: ").append(String.format("%.3f", this.calcVel(this.getVelocMax()))).append(" cm/h").append("\n");
+        builder.append("Velocidade Máxima (km/h): ").append(getVelocMax()).append(" km/h").append("\n");
+        builder.append("Velocidade Máxima (cm/h): ").append(String.format("%.3f", this.calcVel(this.getVelocMax()))).append(" cm/h").append("\n");
         builder.append("Quantidade de Rodas: ").append(this.getQtdRodas()).append("\n");
         builder.append("Quantidade de Pistões: ").append(this.getMotor().getQtdPist()).append("\n");
         builder.append("Potência: ").append(this.getMotor().getPotencia()).append(" cv").append("\n");

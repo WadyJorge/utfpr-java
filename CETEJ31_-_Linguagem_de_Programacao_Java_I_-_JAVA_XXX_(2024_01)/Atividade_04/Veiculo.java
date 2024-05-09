@@ -1,4 +1,4 @@
-public class Veiculo {
+public abstract class Veiculo {
 
     private String placa;
     private String marca;
@@ -19,10 +19,8 @@ public class Veiculo {
         this.motor = new Motor();
     }
 
-    /*
-     * Construtor recebendo parâmetros para o objeto Veiculo e instanciando o
-     * objeto motor sem parâmetros
-     */
+    // Construtor recebendo parametros para o objeto Veiculo e instanciando o objeto
+    // motor sem parâmetros
     public Veiculo(String placa, String marca, String modelo, String cor, float velocMax, int qtdRodas) {
         this.placa = placa;
         this.marca = marca;
@@ -33,10 +31,8 @@ public class Veiculo {
         this.motor = new Motor();
     }
 
-    /*
-     * Construtor recebendo parâmetros para o objeto Veiculo e instanciando o objeto
-     * motor com parâmetros
-     */
+    // Construtor recebendo parâmetros para o objeto Veiculo e instanciando o objeto
+    // motor com parâmetros
     public Veiculo(String placa, String marca, String modelo, String cor, float velocMax, int qtdRodas, int qtdPist,
             int potencia) {
         this.placa = placa;
@@ -78,31 +74,34 @@ public class Veiculo {
     }
 
     // Setters
-    public void setPlaca(String placa) {
+    public final void setPlaca(String placa) {
         this.placa = placa;
     }
 
-    public void setMarca(String marca) {
+    public final void setMarca(String marca) {
         this.marca = marca;
     }
 
-    public void setModelo(String modelo) {
+    public final void setModelo(String modelo) {
         this.modelo = modelo;
     }
 
-    public void setCor(String cor) {
+    public final void setCor(String cor) {
         this.cor = cor;
     }
 
-    public void setVelocMax(float velocMax) {
+    public final void setVelocMax(float velocMax) {
         this.velocMax = velocMax;
     }
 
-    public void setQtdRodas(int qtdRodas) {
+    public final void setQtdRodas(int qtdRodas) {
         this.qtdRodas = qtdRodas;
     }
 
-    // Sobrescrita do método toString para imprimir o objeto
+    // Método abstrato usado no cálculo de velocidade das subclasses Passeio e Carga
+    public abstract float calcVel(float velocMax);
+
+    // Sobrescrita do método toString para imprimir o objeto Veiculo
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();

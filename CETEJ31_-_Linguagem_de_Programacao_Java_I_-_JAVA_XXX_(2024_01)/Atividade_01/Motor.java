@@ -15,7 +15,7 @@ public class Motor {
         this.potencia = potencia;
     }
 
-    // Getters e Setters
+    // Getters 
     public int getQtdPist() {
         return this.qtdPist;
     }
@@ -24,6 +24,7 @@ public class Motor {
         return this.potencia;
     }
 
+    // Setters
     public void setQtdPist(int qtdPist) {
         this.qtdPist = qtdPist;
     }

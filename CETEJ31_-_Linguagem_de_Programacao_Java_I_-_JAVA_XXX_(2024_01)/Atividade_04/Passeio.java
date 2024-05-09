@@ -1,4 +1,4 @@
-public final class Passeio extends Veiculo {
+public final class Passeio extends Veiculo implements Calcular {
 
   private int qtdPassageiros;
 
@@ -12,7 +12,7 @@ public final class Passeio extends Veiculo {
     this.qtdPassageiros = qtdPassageiros;
   }
 
-  // Getters 
+  // Getters
   public int getQtdPassageiros() {
     return this.qtdPassageiros;
   }
@@ -22,10 +22,24 @@ public final class Passeio extends Veiculo {
     this.qtdPassageiros = qtdPassageiros;
   }
 
-  /// Método usado no cálculo de velocidade da subclasse Passeio
+  // Sobrescrita do método presente na superclasse Veiculo (usado no cálculo de velocidade)
+  @Override
   public float calcVel(float velocMax) {
     float velocidade = (velocMax * 1000);
     return velocidade;
+  }
+
+  // Sobrescrita do método presente na interface Calcular (usado na soma da quantidade de caracteres)
+  @Override
+  public int calcular() {
+    int somaLetras = 0;
+
+    somaLetras += getPlaca().length();
+    somaLetras += getMarca().length();
+    somaLetras += getModelo().length();
+    somaLetras += getCor().length();
+
+    return somaLetras;
   }
 
   // Sobrescrita do método toString para imprimir o objeto Veiculo Passeio
@@ -37,7 +51,8 @@ public final class Passeio extends Veiculo {
     builder.append("Marca: ").append(this.getMarca()).append("\n");
     builder.append("Modelo: ").append(this.getModelo()).append("\n");
     builder.append("Cor: ").append(this.getCor()).append("\n");
-    builder.append("Velocidade Máx: ").append(String.format("%.3f", this.calcVel(this.getVelocMax()))).append(" m/h").append("\n");
+    builder.append("Velocidade Máxima (km/h): ").append(getVelocMax()).append(" km/h").append("\n");
+    builder.append("Velocidade Máxima (m/h): ").append(String.format("%.3f", this.calcVel(this.getVelocMax()))).append(" m/h").append("\n");
     builder.append("Quantidade de Rodas: ").append(this.getQtdRodas()).append("\n");
     builder.append("Quantidade de Pistões: ").append(this.getMotor().getQtdPist()).append("\n");
     builder.append("Potência: ").append(this.getMotor().getPotencia()).append(" cv").append("\n");

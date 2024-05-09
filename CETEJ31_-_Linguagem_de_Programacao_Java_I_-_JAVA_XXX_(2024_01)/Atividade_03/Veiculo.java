@@ -19,10 +19,7 @@ public abstract class Veiculo {
         this.motor = new Motor();
     }
 
-    /*
-     * Construtor recebendo parametros para o objeto Veiculo e instanciando o objeto motor sem
-     * parâmetros
-     */
+    // Construtor recebendo parametros para o objeto Veiculo e instanciando o objeto motor sem parâmetros
     public Veiculo(String placa, String marca, String modelo, String cor, float velocMax,
             int qtdRodas) {
         this.placa = placa;
@@ -34,10 +31,7 @@ public abstract class Veiculo {
         this.motor = new Motor();
     }
 
-    /*
-     * Construtor recebendo parâmetros para o objeto Veiculo e instanciando o objeto motor com
-     * parâmetros
-     */
+    // Construtor recebendo parâmetros para o objeto Veiculo e instanciando o objeto  motor com parâmetros
     public Veiculo(String placa, String marca, String modelo, String cor, float velocMax,
             int qtdRodas, int qtdPist, int potencia) {
         this.placa = placa;
@@ -49,7 +43,7 @@ public abstract class Veiculo {
         this.motor = new Motor(qtdPist, potencia);
     }
 
-    // Getters e Setters
+    // Getters
     public String getPlaca() {
         return this.placa;
     }
@@ -78,6 +72,7 @@ public abstract class Veiculo {
         return this.motor;
     }
 
+    // Setters
     public void setPlaca(String placa) {
         this.placa = placa;
     }
@@ -103,7 +98,7 @@ public abstract class Veiculo {
     }
 
     // Método abstrato usado no cálculo de velocidade das subclasses Passeio e Carga
-    abstract float calcVel(float velocMax);
+    public abstract float calcVel(float velocMax);
 
     // Sobrescrita do método toString para imprimir o objeto Veiculo
     @Override
