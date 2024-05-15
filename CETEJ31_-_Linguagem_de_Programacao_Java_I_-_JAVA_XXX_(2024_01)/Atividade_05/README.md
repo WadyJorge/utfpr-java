@@ -24,5 +24,5 @@ g. Float;
 
 h. Long.
 
-**3) Considere as classes citadas no item “2”. Escolha 3 destas classes e construa um código simples que mostre um exemplo de sua aplicação para elas. Copie e cole o código de teste abaixo.**
+**3) Considere as classes citadas no item “2”. Escolha 3 destas classes e construa um código simples que mostre um exemplo de sua aplicação para elas. Copie e cole o código de teste abaixo.**<br>
 Obs.: Não é preciso fazer exemplos complexos; todos eles podem ser feitos dentro de um mesmo método main. 

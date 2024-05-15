@@ -18,7 +18,7 @@ public class Teste {
                 System.out.println("\n--------------------------------------------");
                 System.out.println("Sistema de Gestão de Veículos - Menu Inicial");
                 System.out.println("--------------------------------------------\n");
-                System.out.println("1 - Cadastrar Veiculo de Passeio");
+                System.out.println("1 - Cadastrar Veículo de Passeio");
                 System.out.println("2 - Cadastrar Veículo de Carga");
                 System.out.println("3 - Imprimir Todos os Veículos de Passeio");
                 System.out.println("4 - Imprimir Todos os Veículos de Carga");
@@ -30,87 +30,87 @@ public class Teste {
 
                 switch (opcao) {
 
-                    case 1:
-                        for (int i = 0; i < 5; i++) {
-                            if (passeioLista.size() == 5) {
-                                leitura.entDados("\nLimite máximo de 05 Veiculos de Passeio atingido! Pressione <Enter>");
-                                break;
-                            }
-
-                            System.out.println("============== CADASTRO DE VEÍCULO DE PASSEIO ==============");
-                            if (!cadastrarVeiculoPasseio()) {
-                                leitura.entDados("\nPlaca já cadastrada em um Veículo de Passeio! Pressione <Enter>");
-                                break;
-                            } else {
-                                String sair = "";
-
-                                while (!sair.equalsIgnoreCase("n") && !sair.equalsIgnoreCase("s")) {
-                                    sair = leitura.entDados("\nDeseja realizar um novo cadastro? (S)im/(N)ão>");
-                                }
-
-                                if (sair.equalsIgnoreCase("n"))
-                                    break;
-                            }
+                case 1:
+                    for (int i = 0; i < 5; i++) {
+                        if (passeioLista.size() == 5) {
+                            leitura.entDados("\nLimite máximo de 05 Veiculos de Passeio atingido! Pressione <Enter>");
+                            break;
                         }
-                        break;
 
-                    case 2:
-                        for (int i = 0; i < 5; i++) {
-                            if (cargaLista.size() == 5) {
-                                leitura.entDados("\nLimite máximo de 05 Veiculos de Carga atingido! Pressione <Enter>");
-                                break;
-                            }
-
-                            System.out.println("=============== CADASTRO DE VEÍCULO DE CARGA ===============");
-                            if (!cadastrarVeiculoCarga()) {
-                                leitura.entDados("\nPlaca já cadastrada em um Veículo de Carga! Pressione <Enter>");
-                                break;
-                            }
-
+                        System.out.println("============== CADASTRO DE VEÍCULO DE PASSEIO ==============");
+                        if (!cadastrarVeiculoPasseio()) {
+                            leitura.entDados("\nPlaca já cadastrada em um Veículo de Passeio! Pressione <Enter>");
+                            break;
+                        } else {
                             String sair = "";
 
                             while (!sair.equalsIgnoreCase("n") && !sair.equalsIgnoreCase("s")) {
-                                sair = leitura.entDados("\nDeseja realizar um novo cadastro? (S)im/(N)ão>");
+                                sair = leitura.entDados("\nDeseja realizar um novo cadastro? <(S)im/(N)ão>");
                             }
 
                             if (sair.equalsIgnoreCase("n"))
                                 break;
                         }
-                        break;
+                    }
+                    break;
 
-                    case 3:
-                        System.out.println("\n");
-                        System.out.println("========== LISTA DE TODOS OS VEÍCULOS DE PASSEIO: ==========");
-                        listarTodosVeiculosPasseio();
-                        System.out.println("\n");
-                        break;
+                case 2:
+                    for (int i = 0; i < 5; i++) {
+                        if (cargaLista.size() == 5) {
+                            leitura.entDados("\nLimite máximo de 05 Veiculos de Carga atingido! Pressione <Enter>");
+                            break;
+                        }
 
-                    case 4:
-                        System.out.println("\n");
-                        System.out.println("=========== LISTA DE TODOS OS VEÍCULOS DE CARGA: ===========");
-                        listarTodosVeiculosCarga();
-                        System.out.println("\n");
-                        break;
+                        System.out.println("=============== CADASTRO DE VEÍCULO DE CARGA ===============");
+                        if (!cadastrarVeiculoCarga()) {
+                            leitura.entDados("\nPlaca já cadastrada em um Veículo de Carga! Pressione <Enter>");
+                            break;
+                        }
 
-                    case 5:
-                        System.out.println("\n========== CONSULTAR VEÍCULO DE PASSEIO PELA PLACA =========");
-                        System.out.println("Insira os dados solicitados abaixo:");
-                        System.out.println("============================================================");
-                        procurarVeiculosPasseioPorPlaca(leitura.entDados("\nDigite a placa para realizar a busca: "));
-                        break;
+                        String sair = "";
 
-                    case 6:
-                        System.out.println("\n=== CONSULTAR VEÍCULO DE CARGA PELA PLACA ===");
-                        procurarVeiculosCargaPorPlaca(leitura.entDados("\nDigite a placa para realizar a busca: "));
-                        break;
+                        while (!sair.equalsIgnoreCase("n") && !sair.equalsIgnoreCase("s")) {
+                            sair = leitura.entDados("\nDeseja realizar um novo cadastro? <(S)im/(N)ão>");
+                        }
 
-                    case 7:
-                        System.out.println("Você saiu do sistema!");
-                        break;
+                        if (sair.equalsIgnoreCase("n"))
+                            break;
+                    }
+                    break;
 
-                    default:
-                        System.out.println("Opção não encontrada! Escolha um número entre 1 e 7!");
-                        break;
+                case 3:
+                    System.out.println("\n");
+                    System.out.println("========== LISTA DE TODOS OS VEÍCULOS DE PASSEIO: ==========");
+                    listarTodosVeiculosPasseio();
+                    System.out.println("\n");
+                    break;
+
+                case 4:
+                    System.out.println("\n");
+                    System.out.println("=========== LISTA DE TODOS OS VEÍCULOS DE CARGA: ===========");
+                    listarTodosVeiculosCarga();
+                    System.out.println("\n");
+                    break;
+
+                case 5:
+                    System.out.println("\n========== CONSULTAR VEÍCULO DE PASSEIO PELA PLACA =========");
+                    System.out.println("Insira os dados solicitados abaixo:");
+                    System.out.println("============================================================");
+                    procurarVeiculosPasseioPorPlaca(leitura.entDados("\nDigite a placa para realizar a busca: "));
+                    break;
+
+                case 6:
+                    System.out.println("\n=== CONSULTAR VEÍCULO DE CARGA PELA PLACA ===");
+                    procurarVeiculosCargaPorPlaca(leitura.entDados("\nDigite a placa para realizar a busca: "));
+                    break;
+
+                case 7:
+                    System.out.println("Você saiu do sistema!");
+                    break;
+
+                default:
+                    System.out.println("Opção não encontrada! Escolha um número entre 1 e 7!");
+                    break;
                 }
 
             } catch (Exception e) {
@@ -138,8 +138,7 @@ public class Teste {
         novoPasseio.getMotor().setPotencia(Integer.parseInt(leitura.entDados("\nPotência do Motor: ")));
         novoPasseio.setQtdPassageiros(Integer.parseInt(leitura.entDados("\nQuantidade de Passageiros do Veículo: ")));
 
-        if (passeioLista.stream().filter(i -> i.getPlaca().equalsIgnoreCase(novoPasseio.getPlaca())).findAny()
-                .isPresent()) {
+        if (passeioLista.stream().filter(i -> i.getPlaca().equalsIgnoreCase(novoPasseio.getPlaca())).findAny().isPresent()) {
             return false;
         }
 
@@ -178,7 +177,7 @@ public class Teste {
             System.out.println("\nSoma das quantidades de letras existentes em todos os atributos do tipo String: " + passeio.calcular());
         }
     }
-    
+
     public static void listarTodosVeiculosCarga() {
 
         for (Carga carga : cargaLista) {
