@@ -39,7 +39,6 @@ busca no vetor do respectivo tipo de veículo e imprimir os dados deste;
 - Opção 7: o sistema será encerrado apenas quando o usuário escolher esta opção.
 
 **3) O SISTEMA DEVERÁ:**
-
 - a) Armazenar 5 veículos de cada tipo. Crie 2 vetores, um para os veículos de passeio e outro para os de carga;
 - b) Ao inserir um novo veículo o sistema deverá verificar se já existe um veículo cadastrado com a mesma placa. Caso exista, deverá informar ao usuário sobre esta existência e deverá voltar ao Menu Inicial.
 - c) Ao final do cadastro de cada veículo, deverá ser perguntado se deseja cadastrar mais um (do mesmo tipo), caso a resposta seja NAO deverá voltar ao Menu Inicial;
@@ -64,23 +63,20 @@ Use o método calcVel(float velocMax), da classe-mãe, para fazer este cálculo.
     - i. Entrada de dados: utilize o método entDados da classe Leitura;
     - ii. Saídas: como achar melhor, porém deve imprimir os dados na mesma sequência dos atributos da classe-mãe Veiculo e depois destes os resultados dos métodos “calcular” e “calcVel”;
 
-**4) RESTRIÇÕES**
-
+**4) RESTRIÇÕES:**
 - a) NÃO PERMITA QUE:
 	- i. Que seja possível instanciar objetos diretos da classe mãe (Veiculo)
 	- ii. Sobrescrevam os métodos setters da classe Veiculo;
 	- iii. Sobrescrevam os métodos das classes filhas (Passeio e Carga);
 	- iv. Que as classes filhas (Passeio e Carga) sejam herdadas;
 
-**5) O QUE SERÁ AVALIADO**
-
+**5) O QUE SERÁ AVALIADO:**
 - a) Construção das classes, com os atributos e métodos conforme descritos no diagrama de classe do item 01.
 - b) Relacionamento de herança entre as classes.
 - c) Validação do menu, suas opções e restrições, conforme solicitado nos itens 2 e 3.
 - d) Validação dos itens solicitados nos itens 2, 3 e 4.
 
 **Importante!**
-
 - Atenha-se aos nomes dos elementos (classes, atributos e métodos) conforme apresentados no diagrama.
 - Novos métodos poderão ser criados, caso julgue necessário.
 - Os itens avaliados são os solicitados no enunciado. Elementos extras NÃO renderão pontos a mais.
@@ -88,8 +84,7 @@ Use o método calcVel(float velocMax), da classe-mãe, para fazer este cálculo.
 - A justificativa para qualquer desconto será colocada, pelo avaliador, no campo de feedback de cada Atividade.
 
 &nbsp;
-### INFORMAÇÕES SOBRE O DESENVOLVIMENTO
-
+### INFORMAÇÕES SOBRE O DESENVOLVIMENTO:
 1. O projeto foi desenvolvido utilizando o Notepad++.
 2. O código foi desenvolvido em Java "puro", sem o uso de nenhum Framework.
 3. Para rodar o programa, siga as instruções abaixo:

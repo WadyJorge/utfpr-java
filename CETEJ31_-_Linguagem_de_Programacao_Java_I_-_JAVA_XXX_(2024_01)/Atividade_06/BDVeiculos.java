@@ -30,13 +30,12 @@ public final class BDVeiculos {
         this.listaCarga = listaCarga;
     }
 
-
     // Método para verificar se uma placa já existe na lista de Veículos de Passeio
     public boolean placaExistsInListaPasseio(String placa) throws VeicExistException {
         for (Passeio passeio : listaPasseio) {
             if (passeio != null && passeio.getPlaca().equalsIgnoreCase(placa)) {
                 return true;
-            } 
+            }
         }
         return false;
     }

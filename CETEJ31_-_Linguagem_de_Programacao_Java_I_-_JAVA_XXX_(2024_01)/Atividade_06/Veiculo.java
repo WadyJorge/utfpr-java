@@ -95,6 +95,10 @@ public abstract class Veiculo {
         this.qtdRodas = qtdRodas;
     }
 
+    public void setMotor(Motor motor) {
+        this.motor = motor;
+    }
+
     // Método abstrato usado no cálculo de velocidade das subclasses Passeio e Carga
     public abstract float calcVel(float velocMax);
 

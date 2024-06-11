@@ -32,16 +32,16 @@ public class Teste {
                     cadastrarVeiculoCarga();
                     break;
                 case 3:
-                    listarTodosVeiculosCarga();
+                    listarTodosVeiculosPasseio();
                     break;
                 case 4:
                     listarTodosVeiculosCarga();
                     break;
                 case 5:
-                    procurarVeiculosPasseioPorPlaca();
+                    procurarVeiculoPasseioPorPlaca();
                     break;
                 case 6:
-                    procurarVeiculosCargaPorPlaca();
+                    procurarVeiculoCargaPorPlaca();
                     break;
                 case 7:
                     System.out.println("Você saiu do sistema!");
@@ -72,7 +72,6 @@ public class Teste {
 
             try {
                 System.out.println("============== CADASTRO DE VEÍCULO DE PASSEIO ==============");
-                System.out.println("Insira os dados e valores solicitados abaixo:");
                 System.out.println("============================================================");
                 String placa = leitura.entDados("\nPlaca do Veículo: ");
 
@@ -128,8 +127,8 @@ public class Teste {
             }
 
             try {
-                System.out.println("========== LISTA DE TODOS OS VEÍCULOS DE PASSEIO: ==========");
-
+                System.out.println("=============== CADASTRO DE VEÍCULO DE CARGA ===============");
+                System.out.println("============================================================");
                 String placa = leitura.entDados("\nPlaca do Veículo: ");
 
                 if (bdVeiculos.placaExistsInListaCarga(placa)) {
@@ -137,8 +136,6 @@ public class Teste {
                 }
 
                 Carga novaCarga = new Carga();
-                System.out.println("Insira os dados e valores solicitados abaixo:");
-                System.out.println("============================================================");
                 novaCarga.setPlaca(placa);
                 novaCarga.setMarca(leitura.entDados("\nMarca do Veículo: "));
                 novaCarga.setModelo(leitura.entDados("\nModelo do Veículo: "));
@@ -194,7 +191,7 @@ public class Teste {
             }
 
         } else {
-            System.out.println("\n****************************************\n ==== Lista de Veículos de Passeio vazia! =====\n****************************************");
+            System.out.println("\n********************************************\n === Lista de Veículos de Passeio vazia! === \n********************************************");
         }
     }
 
@@ -215,14 +212,14 @@ public class Teste {
             }
 
         } else {
-            System.out.println("\n****************************************\n ==== Lista de Veículos de Carga vazia! =====\n****************************************");
+            System.out.println("\n******************************************\n === Lista de Veículos de Carga vazia! === \n******************************************");
         }
     }
 
     // Método que consulta Veículos de Passeio pela Placa
-    public static void procurarVeiculosPasseioPorPlaca() {
+    public static void procurarVeiculoPasseioPorPlaca() {
         System.out.println("\n========== IMPRIMIR VEÍCULO DE PASSEIO PELA PLACA: =========");
-        System.out.println("Insira os dados solicitados abaixo:");
+        System.out.println("============================================================");
 
         try {
             String placa = leitura.entDados("\n========== Digite a placa para realizar a busca: ===========");
@@ -233,6 +230,8 @@ public class Teste {
                     System.out.println("\n===== Placa Pesquisada na lista de Veículos de Passeio: " + placa + " ======");
                     System.out.println(passeio.toString());
                     System.out.println("\nSoma das quantidades de caracteres existentes em todos os atributos do tipo String: " + passeio.calcular());
+                } else {
+                    System.out.println("\n\n****************************************************************\n === Veículo de Passeio com a placa '" + placa + "' não encontrado! === \n****************************************************************");
                 }
             }
 
@@ -242,7 +241,7 @@ public class Teste {
     }
 
     // Método que consulta Veículos de Carga pela Placa
-    public static void procurarVeiculosCargaPorPlaca() {
+    public static void procurarVeiculoCargaPorPlaca() {
         System.out.println("\n=========== IMPRIMIR VEÍCULO DE CARGA PELA PLACA: ==========");
         System.out.println("Insira os dados solicitados abaixo:");
         System.out.println("============================================================");
@@ -256,8 +255,11 @@ public class Teste {
                     System.out.println("\n===== Placa Pesquisada na lista de Veículos de Carga: " + placa + " ======");
                     System.out.println(carga.toString());
                     System.out.println("\nSoma de todos os valores de atributos numéricos: " + carga.calcular());
+                } else {
+                    System.out.println("\n\n****************************************************************\n === Veículo de Carga com a placa '" + placa + "' não encontrado! === \n****************************************************************");
                 }
             }
+
         } catch (VeicExistException e) {
             System.out.println(e.getMessage());
         }

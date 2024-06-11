@@ -20,8 +20,7 @@ public abstract class Veiculo {
     }
 
     // Construtor recebendo parametros para o objeto Veiculo e instanciando o objeto motor sem parâmetros
-    public Veiculo(String placa, String marca, String modelo, String cor, float velocMax,
-            int qtdRodas) {
+    public Veiculo(String placa, String marca, String modelo, String cor, float velocMax, int qtdRodas) {
         this.placa = placa;
         this.marca = marca;
         this.modelo = modelo;
@@ -31,9 +30,8 @@ public abstract class Veiculo {
         this.motor = new Motor();
     }
 
-    // Construtor recebendo parâmetros para o objeto Veiculo e instanciando o objeto  motor com parâmetros
-    public Veiculo(String placa, String marca, String modelo, String cor, float velocMax,
-            int qtdRodas, int qtdPist, int potencia) {
+    // Construtor recebendo parâmetros para o objeto Veiculo e instanciando o objeto motor com parâmetros
+    public Veiculo(String placa, String marca, String modelo, String cor, float velocMax, int qtdRodas, int qtdPist, int potencia) {
         this.placa = placa;
         this.marca = marca;
         this.modelo = modelo;
@@ -95,6 +93,10 @@ public abstract class Veiculo {
 
     public void setQtdRodas(int qtdRodas) {
         this.qtdRodas = qtdRodas;
+    }
+
+    public void setMotor(Motor motor) {
+        this.motor = motor;
     }
 
     // Método abstrato usado no cálculo de velocidade das subclasses Passeio e Carga

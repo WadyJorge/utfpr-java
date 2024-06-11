@@ -45,7 +45,8 @@ Com a classe de testes desenvolvida, utilize o código abaixo como guia para o p
 **ATENÇÃO!**
 Este documento é apenas um guia para facilitar o preenchimento do questionário online referente a atividade. A entrega da tarefa em si será feita APENAS respondendo à Atividade 02 – Questionário no Moodle.
 
-### INFORMAÇÕES SOBRE O DESENVOLVIMENTO
+&nbsp;
+### INFORMAÇÕES SOBRE O DESENVOLVIMENTO:
 1. O projeto foi desenvolvido utilizando o Notepad++.
 2. O código foi desenvolvido em Java "puro", sem o uso de nenhum Framework.
 3. Para rodar o programa, siga as instruções abaixo:

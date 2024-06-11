@@ -20,7 +20,6 @@
 - e) Correta implementação da relação entre as classes Teste -> Veículo e Veículo -> Motor, conforme solicitado no item 2.c.
 - f) Correto uso dos recursos da linguagem de programação Java, tais como criação de variáveis, laços de repetição, blocos condicionais.
 
-
 **IMPORTANTE!**
 - Atenha-se aos nomes dos elementos (classes, atributos e métodos) conforme apresentados no diagrama.
 - Novos métodos poderão ser criados, caso julgue necessário.

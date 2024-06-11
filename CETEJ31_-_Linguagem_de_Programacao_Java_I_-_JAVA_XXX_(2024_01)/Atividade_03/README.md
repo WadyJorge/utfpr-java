@@ -8,7 +8,6 @@ Embora a Atividade 3 trate do conceito e aplicação do mecanismo de Herança, e
 
 Por exemplo, ao definir-se como "final" um método "set", indicando que não poderá ser sobrescrito, garantimos a perpetuação de uma regra de negócio restritiva sobre as características possíveis de um objeto (um atributo deste), como quando não queremos que um atributo receba um valor fora de uma escala prevista.
 
-
 **1) OBSERVE O SEGUINTE DIAGRAMA DE CLASSES:**
 
 Obs.: As alterações e novos elementos referentes à atividade encontram-se marcadas em
@@ -28,14 +27,12 @@ amarelo e laranja (relacionamentos) no diagrama.
     - ii. Nenhum método “set” (de nenhuma classe) poderá ser sobrescrito;
 - d) A classe “Teste” deve ser construída de forma a testar todas as funcionalidades do programa (entrada, saída e cálculos), propiciando assim “trocas de mensagens” entre os objetos das classes Teste→Passeio e Teste→Carga. Por meio dela deverá ser possível instanciar 5 veículos de cada tipo (Passeio/Carga).
 
-
 **3) O QUE SERÁ AVALIADO:**
 - a) Correta construção das classes, com os atributos e métodos conforme descritos no diagrama de classe do item 01.
 - b) Relacionamento de herança entre as classes..
 - c) Cada uma das solicitações presentes no item 2.
 - d) Implementação da relação entre as classes Teste -> Passeio, Teste -> Carga, conforme solicitado no item 2.d.
 - e) Uso do encapsulamento.
-
 
 **IMPORTANTE!**
 - Atenha-se aos nomes dos elementos (classes, atributos e métodos) conforme apresentados no diagrama.
@@ -57,9 +54,8 @@ Obs.: Embora os exemplos acima mostrem apenas 1 saída para cada tipo de veícul
 desenvolvida deve ter a saída para os CINCO veículos de CADA TIPO, conforme solicitado no
 enunciado acima.
 
-
 &nbsp;
-### INFORMAÇÕES SOBRE O DESENVOLVIMENTO
+### INFORMAÇÕES SOBRE O DESENVOLVIMENTO:
 1. O projeto foi desenvolvido utilizando o Notepad++.
 2. O código foi desenvolvido em Java "puro", sem o uso de nenhum Framework.
 3. Para rodar o programa, siga as instruções abaixo:
