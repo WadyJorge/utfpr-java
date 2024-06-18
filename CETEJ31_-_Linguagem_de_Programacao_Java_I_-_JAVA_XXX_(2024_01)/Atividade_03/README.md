@@ -54,7 +54,6 @@ Obs.: Embora os exemplos acima mostrem apenas 1 saída para cada tipo de veícul
 desenvolvida deve ter a saída para os CINCO veículos de CADA TIPO, conforme solicitado no
 enunciado acima.
 
-&nbsp;
 ### INFORMAÇÕES SOBRE O DESENVOLVIMENTO:
 1. O projeto foi desenvolvido utilizando o Notepad++.
 2. O código foi desenvolvido em Java "puro", sem o uso de nenhum Framework.

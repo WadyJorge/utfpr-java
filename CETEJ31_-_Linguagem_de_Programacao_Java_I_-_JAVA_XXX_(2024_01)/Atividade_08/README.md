@@ -14,7 +14,7 @@
 - c) Sempre que acionar um botão "Sair" deverá retornar à janela anterior;
 
 **3) SUGESTÕES:**
-- a) Não se proeocupe com a estética: posicionamento, cores e efeitos dos componentes. Preocupe-se apenas em apresentar os itens de forma clara e legível. Foque nas funcionalidades.
+- a) Não se preocupe com a estética: posicionamento, cores e efeitos dos componentes. Preocupe-se apenas em apresentar os itens de forma clara e legível. Foque nas funcionalidades.
 - b) As janelas "Imprimir/Excluir todos" tanto de Passeio quanto de CArga, devem conter um componente capaz de conter um conjunto de objetos. No caso aconselha-se usar uma tabela (JTable), mas poderia ser uma lista (JList/JPanel) ou um caixa do tipo Combo (JComboBox).
 
 ![Diagrama de Janelas - Atividade 08](/CETEJ31_-_Linguagem_de_Programacao_Java_I_-_JAVA_XXX_(2024_01)/Images/Diagrama_de_Janelas_-_Atividade_08.png) 
@@ -30,8 +30,7 @@
 - O não cumprimento do que foi solicitado acarretará no decréscimo da nota de acordo com a gravidade da falta.
 - A justificativa para qualquer desconto será colocada, pelo avaliador, no campo de feedback de cada Atividade.
 
-&nbsp;
-###INFORMAÇÕES SOBRE O DESENVOLVIMENTO:
+### INFORMAÇÕES SOBRE O DESENVOLVIMENTO:
 1. O projeto foi desenvolvido utilizando o Notepad++.
 2. O código foi desenvolvido em Java "puro", sem o uso de nenhum Framework.
 3. Para rodar o programa, siga as instruções abaixo:

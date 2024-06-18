@@ -83,7 +83,6 @@ Use o método calcVel(float velocMax), da classe-mãe, para fazer este cálculo.
 - O não cumprimento do que foi solicitado acarretará no decréscimo da nota de acordo com a gravidade da falta.
 - A justificativa para qualquer desconto será colocada, pelo avaliador, no campo de feedback de cada Atividade.
 
-&nbsp;
 ### INFORMAÇÕES SOBRE O DESENVOLVIMENTO:
 1. O projeto foi desenvolvido utilizando o Notepad++.
 2. O código foi desenvolvido em Java "puro", sem o uso de nenhum Framework.

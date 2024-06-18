@@ -48,9 +48,9 @@ busca no vetor do respectivo tipo de veículo e imprimir os dados deste;
 		1 kilometer/hour = 100000 centimeter/hour
 
 <pre>
-Use o método calcVel(<Strong>float velocMax</Strong>), da classe-mãe, para fazer este cálculo.
+Use o método calcVel(**float velocMax**), da classe-mãe, para fazer este cálculo.
 **Atenção:**
-- O método calcVel(<Strong>float velocMax</Strong>) **NÃO** deve alterar o valor do atributo velocMax, <Strong>apenas convertê-lo</Strong>  e retornar o valor convertido para que seja exibido na tela por meio da classe Teste;
+- O método calcVel(**float velocMax**) **NÃO** deve alterar o valor do atributo velocMax, **apenas convertê-lo**  e retornar o valor convertido para que seja exibido na tela por meio da classe Teste;
 </pre>
 - g) Sempre que se optar pela opção 5 ou pela 6 do Menu Inicial, os valores calculados pelos métodos calcVel e calcular serão apresentados junto com as demais informações do respectivo veículo;
 - h) O método “calcular” da interface “Calc”, quando sobrescrito:
@@ -72,7 +72,7 @@ Use o método calcVel(<Strong>float velocMax</Strong>), da classe-mãe, para faz
 - a) Ela deverá conter os vetores de armazenamento dos veículos cadastrados.
 - b) Deverá conter os métodos necessários para manipulação dos vetores e os objetos neles contidos (adição do objeto no vetor, impressão dos vetores, verificação de posição disponível nos vetores etc).
 - c) A classe BDVeiculos deve ser usada ao longo da aplicação.
-- d) Não deve ter qualquer tipo de entrada de dados na classe BDVeiculos. Os dados dos veículos e demais interações com o usuáriom DEVEM acontecer na classe Teste, como especificado no diagrama.
+- d) Não deve ter qualquer tipo de entrada de dados na classe BDVeiculos. Os dados dos veículos e demais interações com o usuário DEVEM acontecer na classe Teste, como especificado no diagrama.
 
 **6) O QUE SERÁ AVALIADO:**
 - a) Construção novas das classes, com os atributos e métodos conforme descritos no diagrama de classe do item 01.
@@ -88,7 +88,6 @@ Use o método calcVel(<Strong>float velocMax</Strong>), da classe-mãe, para faz
 - O não cumprimento do que foi solicitado acarretará no decréscimo da nota de acordo com a gravidade da falta.
 - A justificativa para qualquer desconto será colocada, pelo avaliador, no campo de feedback de cada Atividade.
 
-&nbsp;
 ### INFORMAÇÕES SOBRE O DESENVOLVIMENTO:
 1. O projeto foi desenvolvido utilizando o Notepad++.
 2. O código foi desenvolvido em Java "puro", sem o uso de nenhum Framework.
