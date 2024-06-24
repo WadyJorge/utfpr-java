@@ -25,11 +25,11 @@ public final class Carga extends Veiculo {
     }
 
     // Setters
-    public void setCargaMax(int cargaMax) {
+    public final void setCargaMax(int cargaMax) {
         this.cargaMax = cargaMax;
     }
 
-    public void setTara(int tara) {
+    public final void setTara(int tara) {
         this.tara = tara;
     }
 

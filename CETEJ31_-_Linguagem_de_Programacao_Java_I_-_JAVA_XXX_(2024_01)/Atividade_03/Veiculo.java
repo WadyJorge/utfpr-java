@@ -71,31 +71,31 @@ public abstract class Veiculo {
     }
 
     // Setters
-    public void setPlaca(String placa) {
+    public final void setPlaca(String placa) {
         this.placa = placa;
     }
 
-    public void setMarca(String marca) {
+    public final void setMarca(String marca) {
         this.marca = marca;
     }
 
-    public void setModelo(String modelo) {
+    public final void setModelo(String modelo) {
         this.modelo = modelo;
     }
 
-    public void setCor(String cor) {
+    public final void setCor(String cor) {
         this.cor = cor;
     }
 
-    public void setVelocMax(float velocMax) {
+    public final void setVelocMax(float velocMax) {
         this.velocMax = velocMax;
     }
 
-    public void setQtdRodas(int qtdRodas) {
+    public final void setQtdRodas(int qtdRodas) {
         this.qtdRodas = qtdRodas;
     }
 
-    public void setMotor(Motor motor) {
+    public final void setMotor(Motor motor) {
         this.motor = motor;
     }
 

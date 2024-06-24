@@ -18,7 +18,7 @@ public final class Passeio extends Veiculo {
   }
 
   // Setters
-  public void setQtdPassageiros(int qtdPassageiros) {
+  public final void setQtdPassageiros(int qtdPassageiros) {
     this.qtdPassageiros = qtdPassageiros;
   }
 

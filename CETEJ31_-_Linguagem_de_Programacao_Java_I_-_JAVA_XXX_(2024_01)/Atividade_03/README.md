@@ -10,8 +10,7 @@ Por exemplo, ao definir-se como "final" um método "set", indicando que não pod
 
 **1) OBSERVE O SEGUINTE DIAGRAMA DE CLASSES:**
 
-Obs.: As alterações e novos elementos referentes à atividade encontram-se marcadas em
-amarelo e laranja (relacionamentos) no diagrama.
+Obs.: As alterações e novos elementos referentes à atividade encontram-se marcadas em amarelo e laranja (relacionamentos) no diagrama.
 
 ![Diagrama de Classes - Atividade 03](/CETEJ31_-_Linguagem_de_Programacao_Java_I_-_JAVA_XXX_(2024_01)/Images/Diagrama_de_Classes_-_Atividade_03.png)
 
@@ -45,14 +44,11 @@ amarelo e laranja (relacionamentos) no diagrama.
 
 ![Entrada de Dados - Atividade 03](/CETEJ31_-_Linguagem_de_Programacao_Java_I_-_JAVA_XXX_(2024_01)/Images/Exemplo_EntradaDados_-_Atividade_03.png)
 
-Obs.: A entrada de dados pode ser feita por meio dos métodos setters (como nos exemplos
-acima) ou utilizando os construtores de cada classe. 
+Obs.: A entrada de dados pode ser feita por meio dos métodos setters (como nos exemplos acima) ou utilizando os construtores de cada classe. 
 
 ![Saída de Dados - Atividade 03](/CETEJ31_-_Linguagem_de_Programacao_Java_I_-_JAVA_XXX_(2024_01)/Images/Exemplo_SaidaDados_-_Atividade_03.png)
 
-Obs.: Embora os exemplos acima mostrem apenas 1 saída para cada tipo de veículo, a aplicação
-desenvolvida deve ter a saída para os CINCO veículos de CADA TIPO, conforme solicitado no
-enunciado acima.
+Obs.: Embora os exemplos acima mostrem apenas 1 saída para cada tipo de veículo, a aplicação desenvolvida deve ter a saída para os CINCO veículos de CADA TIPO, conforme solicitado no enunciado acima.
 
 ### INFORMAÇÕES SOBRE O DESENVOLVIMENTO:
 1. O projeto foi desenvolvido utilizando o Notepad++.

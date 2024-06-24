@@ -25,11 +25,11 @@ public class Motor {
     }
 
     // Setters
-    public void setQtdPist(int qtdPist) {
+    public final void setQtdPist(int qtdPist) {
         this.qtdPist = qtdPist;
     }
 
-    public void setPotencia(int potencia) {
+    public final void setPotencia(int potencia) {
         this.potencia = potencia;
     }
 
