@@ -1,6 +1,6 @@
-# UTFPR - JAVA I - Pós Graduação em Tecnologia Java
+# UTFPR — JAVA I — Pós-Graduação em Tecnologia Java
 
-## Atividade 07 – Collections
+## Atividade 07 — Collections
 
 **Este exercício trata-se de uma evolução da Atividade 06.**
 

@@ -1,6 +1,6 @@
-# UTFPR - JAVA I - Pós Graduação em Tecnologia Java
+# UTFPR — JAVA I — Pós-Graduação em Tecnologia Java
 
-## Atividade 04 – Interface
+## Atividade 04 — Interface
 
 **Este exercício trata-se de uma evolução da Atividade 03.**
 

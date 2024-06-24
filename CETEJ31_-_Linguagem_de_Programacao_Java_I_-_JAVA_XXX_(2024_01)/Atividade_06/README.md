@@ -1,6 +1,6 @@
-# UTFPR - JAVA I - Pós Graduação em Tecnologia Java
+# UTFPR — JAVA I — Pós-Graduação em Tecnologia Java
 
-## Aividade 06 – Exceções
+## Aividade 06 — Exceções
 
 **Este exercício trata-se de uma evolução da Atividade 04.**
 

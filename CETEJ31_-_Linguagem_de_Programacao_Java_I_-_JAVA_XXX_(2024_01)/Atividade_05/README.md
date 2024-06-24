@@ -1,6 +1,6 @@
-# UTFPR - JAVA I - Pós Graduação em Tecnologia Java
+# UTFPR — JAVA I — Pós-Graduação em Tecnologia Java
 
-## Atividade 05 – PESQUISA: Classes Wrappers
+## Atividade 05 — PESQUISA: Classes Wrappers
 
 **Respondas as questões abaixo e poste suas respostas no Moodle em um arquivo PDF.**
 

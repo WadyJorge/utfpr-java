@@ -1,6 +1,6 @@
-# UTFPR - JAVA I - Pós Graduação em Tecnologia Java
+# UTFPR — JAVA I — Pós-Graduação em Tecnologia Java
 
-## Atividade 01 – Implementação Motor/Veículo/Teste
+## Atividade 01 — Implementação Motor/Veículo/Teste
 
 **1) OBSERVE O SEGUINTE DIAGRAMA DE CLASSES::**
 

@@ -1,6 +1,6 @@
-# UTFPR - JAVA I - Pós Graduação em Tecnologia Java
+# UTFPR — JAVA I — Pós-Graduação em Tecnologia Java
 
-## Atividade 02 – Encapsulamento
+## Atividade 02 — Encapsulamento
 
 **Ficha para definição dos tipos de encapsulamento.**
 
@@ -22,7 +22,7 @@ Com a classe de testes desenvolvida, utilize o código abaixo como guia para o p
         __________ int idade;
         __________ double salario;
         
-        //MÉTODOS
+        //MÉTODOS 
         __________ void cadPai(String nm, int anos, int sal) {
         nome = nm;
         idade = anos;

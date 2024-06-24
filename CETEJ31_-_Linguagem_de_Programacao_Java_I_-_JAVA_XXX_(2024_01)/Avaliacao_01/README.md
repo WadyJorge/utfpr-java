@@ -1,6 +1,6 @@
-# UTFPR - JAVA I - Pós Graduação em Tecnologia Java
+# UTFPR — JAVA I — Pós-Graduação em Tecnologia Java
 
-## Avaliação - 1ª Chamada
+## Avaliação — 1ª Chamada
 
 1) O diagrama de classes a seguir trata de um sistema bancário, no qual encontramos como correntistas (clientes do banco) tanto pessoas físicas (cidadãos comuns) quanto pessoas jurídicas (empresas), porém, **toda empresa terá uma pessoa física responsável (um funcionário) por sua conta bancária:**
 

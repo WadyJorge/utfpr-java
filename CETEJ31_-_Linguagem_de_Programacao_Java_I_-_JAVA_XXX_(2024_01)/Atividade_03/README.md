@@ -1,6 +1,6 @@
-# UTFPR - JAVA I - Pós Graduação em Tecnologia Java
+# UTFPR — JAVA I — Pós-Graduação em Tecnologia Java
 
-## Atividade 03 – Herança
+## Atividade 03 — Herança
 
 **Este exercício trata-se de uma evolução da Atividade 01.**
 
