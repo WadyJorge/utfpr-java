@@ -1,13 +1,9 @@
-package com.wadyjorge.avaliacao_01;
-
 // @author Wady Jorge Souza Beliche
-public class TstConta implements Verifica {
+public class TstConta {
     
     public static void main(String[] args) {
         
-        PessoaFisica responsavel = new PessoaFisica();
         PessoaJuridica empresa = new PessoaJuridica();
-        Endereco endereco = new Endereco();
         
         // Entrada de dados
         try {
@@ -16,12 +12,10 @@ public class TstConta implements Verifica {
             e.impMsg();
         }
         
-        empresa.setCnpj(123456);
-        endereco.setRua("Rua Salgado Filho");
-        responsavel.setCpf(17);
-        responsavel.setNome("Wady Jorge");
-        empresa.setResponsavel(responsavel);
-        empresa.setEnder(endereco);
+        empresa.getEnder().setRua("Rua Salgado Filho");
+        empresa.setCnpj(17);
+        empresa.getResponsavel().setCpf(18);
+        empresa.getResponsavel().setNome("Wady Jorge");
         
         // Saída de dados
         System.out.println("===== Pessoa Jurídica ====="); 
@@ -34,10 +28,6 @@ public class TstConta implements Verifica {
         empresa.getResponsavel().verifDoc();
         System.out.println("Nome do Responsável: " + empresa.getResponsavel().getNome());
         empresa.verifDoc();
-    }
-    
-    @Override
-    public void validar() {
     }
     
     public void validar(int numeroConta) {
