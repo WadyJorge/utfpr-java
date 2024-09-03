@@ -17,6 +17,7 @@ Fixar o aprendizado da API de IO do Java através da construção de um sistema 
 3. Em caso de envio fora do prazo, o desconto será de 1 ponto por dia de atraso independente de ser um dia completo ou não, ex.: 1 dia e 1 hora de atraso contam como 2 dias de atraso, ou seja, 2 pontos de desconto.
 
 **Descrição da Atividade:**
+
 O sistema de arquivos será composto por uma aplicação de linha de comando que suporte os seguintes comandos:
 
 1. **SHOW** deverá mostrar o conteúdo apenas de arquivos de tipo texto (TXT), caso seja usado em diretórios, deverá ser exibido um erro;
