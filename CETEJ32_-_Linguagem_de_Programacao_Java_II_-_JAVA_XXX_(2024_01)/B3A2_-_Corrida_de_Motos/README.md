@@ -12,7 +12,7 @@ Exercitar os conceitos e a prática de **Race Condition** e **Critical Sections*
 3. Uma corrida só deve iniciar após o término da corrida anterior, ou seja, quando todos os competidores cruzarem a linha de chegada (área crítica);
 4. O placar da corrida será contabilizado toda vez que um corredor cruzar a linha de chegada (área crítica). O competidor receberá pontos de acordo com sua posição de chegada. Exemplo: O competidor 3 chegou primeiro na área sincronizada, recebendo 10 pontos; o competidor 5 chegou em segundo, recebendo 9 pontos, e assim por diante, até que o último a cruzar a linha de chegada ganhe 1 ponto;
 5. As 10 corridas formam um campeonato. O vencedor será aquele que somar o maior número de pontos no campeonato;
-6. Ao final do campeonato, deverá ser apresentado o placar com o total de pontos e o pódio, seguindo a estrutura mostrada na imagem.
+6. Ao final do campeonato, deverá ser apresentado o placar com o total de pontos e o pódio, seguindo a estrutura mostrada na imagem:
 
 <div align="center">
     <img src="/CETEJ32_-_Linguagem_de_Programacao_Java_II_-_JAVA_XXX_(2024_01)/Images/B3A2_-_Corrida_de_Motos.png" alt="B3A2 - Corrida de Motos">
