@@ -41,7 +41,7 @@ busca no vetor do respectivo tipo de veículo e imprimir os dados deste;
 **3) O SISTEMA DEVERÁ:**
 - a) Armazenar 5 veículos de cada tipo. Crie 2 vetores, um para os veículos de passeio e outro para os de carga;
 - b) Ao inserir um novo veículo o sistema deverá verificar se já existe um veículo cadastrado com a mesma placa. Caso exista, deverá informar ao usuário sobre esta existência e deverá voltar ao Menu Inicial.
-- c) Ao final do cadastro de cada veículo, deverá ser perguntado se deseja cadastrar mais um (do mesmo tipo), caso a resposta seja NAO deverá voltar ao Menu Inicial;
+- c) Ao final do cadastro de cada veículo, deverá ser perguntado se deseja cadastrar mais um (do mesmo tipo), caso a resposta seja NAO deverá voltar ao Menu Inicial.
 - d) A velocidade de cada veículo sempre será armazenada em Km/h, porém o método abstrato calcVel (sobrescrito nas classes Passeio e Carga) deverá calcular (não alterando o valor do atributo velocMax) e retornar o resultado da seguinte forma:
     - i. Se o veículo for de passeio, deverá converter de Km/h para M/h (metros por hora) e retornar este valor;
         1 kilometer/hour = 1000 meter/hour
@@ -52,23 +52,23 @@ Use o método calcVel(float velocMax), da classe-mãe, para fazer este cálculo.
 
 **Atenção:**
 
--    O método calcVel(float velocMax) **NÃO** deve alterar o valor do atributo velocMax, apenas convertê-lo e retornar o valor convertido para que seja exibido na tela por meio da classe Teste;
+- O método calcVel(float velocMax) **NÃO** deve alterar o valor do atributo velocMax, apenas convertê-lo e retornar o valor convertido para que seja exibido na tela por meio da classe Teste.
 
 - e) O método “calcular” da interface “Calc”, quando sobrescrito:
-    - i. Na classe Passeio: retornará a soma das quantidades de caracteres existentes em todos os atributos do tipo String (espaços em branco podem ser contados também);
+    - i. Na classe Passeio: retornará a soma das quantidades de caracteres existentes em todos os atributos do tipo String (espaços em branco podem ser contados também).
     - ii. Na classe Carga: retornará a soma de todos os valores contidos nos atributos numéricos.
-- f) Sempre que se optar pela opção 5 ou pela 6 do Menu Inicial, os valores calculados pelos métodos calcVel e calcular serão apresentados junto com as demais informações do respectivo veículo;
-- g) Perceba que, pelo diagrama não há uma associação entre as classes Veículo e Teste nem entre Motor e Teste. Não poderá ser declarado um objeto do tipo Motor nas classes: Passeio, Carga e Teste. Somente haverá declaração na classemãe Veiculo;
+- f) Sempre que se optar pela opção 5 ou pela 6 do Menu Inicial, os valores calculados pelos métodos calcVel e calcular serão apresentados junto com as demais informações do respectivo veículo.
+- g) Perceba que, pelo diagrama não há uma associação entre as classes Veículo e Teste nem entre Motor e Teste. Não poderá ser declarado um objeto do tipo Motor nas classes: Passeio, Carga e Teste. Somente haverá declaração na classemãe Veiculo.
 - h) Todas entradas e saídas de dados deverão ser feitas na classe Teste:
     - i. Entrada de dados: utilize o método entDados da classe Leitura;
     - ii. Saídas: como achar melhor, porém deve imprimir os dados na mesma sequência dos atributos da classe-mãe Veiculo e depois destes os resultados dos métodos “calcular” e “calcVel”;
 
 **4) RESTRIÇÕES:**
 - a) NÃO PERMITA QUE:
-	- i. Que seja possível instanciar objetos diretos da classe mãe (Veiculo)
+	- i. Que seja possível instanciar objetos diretos da classe mãe (Veiculo);
 	- ii. Sobrescrevam os métodos setters da classe Veiculo;
 	- iii. Sobrescrevam os métodos das classes filhas (Passeio e Carga);
-	- iv. Que as classes filhas (Passeio e Carga) sejam herdadas;
+	- iv. Que as classes filhas (Passeio e Carga) sejam herdadas.
 
 **5) O QUE SERÁ AVALIADO:**
 - a) Construção das classes, com os atributos e métodos conforme descritos no diagrama de classe do item 01.

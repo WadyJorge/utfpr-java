@@ -28,7 +28,7 @@ Obs.: As alterações e novos elementos referentes à atividade encontram-se mar
 
 **3) O QUE SERÁ AVALIADO:**
 - a) Correta construção das classes, com os atributos e métodos conforme descritos no diagrama de classe do item 01.
-- b) Relacionamento de herança entre as classes..
+- b) Relacionamento de herança entre as classes.
 - c) Cada uma das solicitações presentes no item 2.
 - d) Implementação da relação entre as classes Teste -> Passeio, Teste -> Carga, conforme solicitado no item 2.d.
 - e) Uso do encapsulamento.
