@@ -14,7 +14,9 @@ Exercitar os conceitos e a prática de **Race Condition** e **Critical Sections*
 5. As 10 corridas formam um campeonato. O vencedor será aquele que somar o maior número de pontos no campeonato;
 6. Ao final do campeonato, deverá ser apresentado o placar com o total de pontos e o pódio, seguindo a estrutura mostrada na imagem.
 
-![B3A2 - Corrida de Motos](/CETEJ32_-_Linguagem_de_Programacao_Java_II_-_JAVA_XXX_(2024_01)/Images/B3A2_-_Corrida_de_Motos.png) 
+<div align="center">
+    <img src="/CETEJ32_-_Linguagem_de_Programacao_Java_II_-_JAVA_XXX_(2024_01)/Images/B3A2_-_Corrida_de_Motos.png" alt="B3A2 - Corrida de Motos">
+</div>
 
 **Critérios de Aceite e Avaliação do Exercício:**
 1. Cada requisito possui um peso que compõe 80 pontos no total. Para obter a nota máxima, cumpra todos os requisitos; caso contrário, a nota será ajustada conforme cada requisito implementado;
