@@ -18,4 +18,4 @@
 - Entregas fora do padrão acima serão consideradas **INVÁLIDAS** e não serão avaliadas.
 
 **Descrição da Atividade:**
-- Baixe o **PDF** anexado nesta página, onde você encontrará o **enunciado da Atividade 02** e as instruções detalhadas para realizá-la.
+- Baixe o **PDF** anexado nesta página, onde você encontrará o enunciado da **"Atividade 02"** e as instruções detalhadas para realizá-la.
