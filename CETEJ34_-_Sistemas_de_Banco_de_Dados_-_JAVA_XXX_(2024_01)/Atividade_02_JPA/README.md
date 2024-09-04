@@ -10,7 +10,7 @@
 - Adicione os scripts utilizados para a execução dos itens 2, 3, 4 e 5 em um **ÚNICO** arquivo com extensão SQL;
 - Exporte o DER criado para o formato de imagem (PNG, JPG ou BMP);
 - Exporte os dados presentes no banco de dados para o formato CSV ou XLSX (Excel), colocando em um **ÚNICO** arquivo com o nome **RelatorioDados.<extensão>**. Exportar somente das tabelas “Funcionários” e “Departamentos”, não exportar os dados das “views”;
-- Compacte esses **três arquivos** (DER, script SQL e Relatório dos dados) em um ZIP e poste no Moodle, utilizando o seguinte padrão para o nome do arquivo: **<NOMEDOALUNO>_Atividade02.zip**.
+- Compacte esses **três arquivos** (DER, script SQL e Relatório dos dados) em um ZIP e poste no Moodle, utilizando o seguinte padrão para o nome do arquivo: **(NOMEDOALUNO)_Atividade02.zip**.
 
 **ATENÇÃO:**
 - Os scripts gerados **deverão rodar sem erros no MariaDB (MySQL)**;
