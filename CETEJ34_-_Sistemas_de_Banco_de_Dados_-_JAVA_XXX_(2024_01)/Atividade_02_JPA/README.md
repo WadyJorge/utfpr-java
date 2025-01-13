@@ -11,7 +11,7 @@
 - Exporte os dados presentes no banco de dados para o formato CSV ou XLSX (Excel), colocando em um **ÚNICO** arquivo com o nome **RelatorioDados.<extensão>**. Exportar somente das tabelas “Funcionários” e “Departamentos”, não exportar os dados das “views”;
 - Compacte esses **três arquivos** (DER, script SQL e Relatório dos dados) em um ZIP e poste no Moodle, utilizando o seguinte padrão para o nome do arquivo: **(NOMEDOALUNO)_Atividade02.zip**.
 
-**ATENÇÃO PARA NÃO DEIXAR A ENTREGA DA ATIVIDADE EM MODO RASCUNHO!**
+⚠️ **ATENÇÃO PARA NÃO DEIXAR A ENTREGA DA ATIVIDADE EM MODO RASCUNHO!**
 
 **ATENÇÃO:**
 - Os scripts gerados **deverão rodar sem erros no MariaDB (MySQL)**;

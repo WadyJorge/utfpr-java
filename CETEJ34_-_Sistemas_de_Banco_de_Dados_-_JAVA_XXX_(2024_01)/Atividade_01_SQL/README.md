@@ -12,4 +12,4 @@
 - Os scripts **devem rodar no banco de dados MariaDB (MySQL)**;
 - **ATENÇÃO:** scripts que não rodarem serão considerados **INVÁLIDOS** e não serão avaliados.
 
-**ATENÇÃO PARA NÃO DEIXAR A ENTREGA DA ATIVIDADE EM MODO RASCUNHO!**
+⚠️ **ATENÇÃO PARA NÃO DEIXAR A ENTREGA DA ATIVIDADE EM MODO RASCUNHO!**
