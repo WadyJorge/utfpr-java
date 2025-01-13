@@ -3,7 +3,6 @@
 ## B3A2 - Corrida de Motos
 
 **Objetivo:**
-
 Exercitar os conceitos e a prática de **Race Condition** e **Critical Sections** por meio do uso de sincronização de métodos e/ou objetos para simular uma corrida de motos, onde o vencedor será aquele que acumular mais pontos ao acessar a região crítica (linha de chegada).
 
 **Regras:**
