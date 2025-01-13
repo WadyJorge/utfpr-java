@@ -1,4 +1,4 @@
-// @author Wady Jorge Souza Beliche
+// @author Wady Jorge
 public abstract class ClienteBanco {
     
     private int numeroConta = 0;

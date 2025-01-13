@@ -1,4 +1,4 @@
-// @author Wady Jorge Souza Beliche
+// @author Wady Jorge
 public class Endereco {
     
     private int num = 0;

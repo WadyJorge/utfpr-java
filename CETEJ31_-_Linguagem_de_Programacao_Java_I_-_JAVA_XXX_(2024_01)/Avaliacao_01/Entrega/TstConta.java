@@ -1,4 +1,4 @@
-// @author Wady Jorge Souza Beliche
+// @author Wady Jorge
 public class TstConta {
     
     public static void main(String[] args) {

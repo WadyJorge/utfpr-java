@@ -1,4 +1,4 @@
-// @author Wady Jorge Souza Beliche
+// @author Wady Jorge
 public final class PessoaJuridica extends ClienteBanco {
     
     private int cnpj = 0;

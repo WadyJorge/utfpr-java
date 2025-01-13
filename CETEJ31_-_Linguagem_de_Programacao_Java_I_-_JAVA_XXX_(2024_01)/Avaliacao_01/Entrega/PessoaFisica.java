@@ -1,4 +1,4 @@
-// @author Wady Jorge Souza Beliche
+// @author Wady Jorge
 public final class PessoaFisica extends ClienteBanco {
     
     private int cpf = 0;
