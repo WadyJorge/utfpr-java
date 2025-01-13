@@ -8,8 +8,8 @@ Nesta atividade, você irá exercitar os conhecimentos de **Streams, Date/Time A
 O projeto template disponibilizado contém vários marcadores TODO que precisam ser implementados para atingir os objetivos da atividade e obter os resultados das vendas conforme solicitado pelos métodos.
 
 **Como Identificar os TODOs:**
-**NetBeans**: Acesse o menu "Window > Action Items" ou utilize o atalho Ctrl+6.
-**IntelliJ**: Acesse o menu "View > Tool Window > TODO".
+- **NetBeans**: Acesse o menu "Window > Action Items" ou utilize o atalho Ctrl+6.
+- **IntelliJ**: Acesse o menu "View > Tool Window > TODO".
 
 **Regras:**
 1. Cópias serão desconsideradas e receberão nota zero;
