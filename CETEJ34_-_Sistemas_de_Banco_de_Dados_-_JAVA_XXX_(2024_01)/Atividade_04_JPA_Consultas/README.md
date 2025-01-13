@@ -1,4 +1,4 @@
-# UTFPR — JAVA II — Pós-Graduação em Tecnologia Java
+# UTFPR — Sistemas de Banco de Dados — Pós-Graduação em Tecnologia Java
 
 ## Atividade 04 - JPA - Consultas
 
