@@ -3,7 +3,7 @@
 ## Atividade 08 - a8.asta
 
 **Descrição da Atividade:**
-Construindo um **DFD** a partir do **Diagrama de Entidade e Relacionamento (DER)**.
+- Construindo um **DFD** a partir do **Diagrama de Entidade e Relacionamento (DER)**.
 
 1. Utilize o **Astah Professional** para construir o Diagrama de Entidade e Relacionamento abaixo:
 

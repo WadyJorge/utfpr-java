@@ -3,7 +3,7 @@
 ## Atividade 04 - a4.asta
 
 **Objetivo:**  
-Fixar o modelo de arquitetura de software em 3 camadas, conceitos de Orientação a Objetos (OO), e as potencialidades da UML.
+- Fixar o modelo de arquitetura de software em 3 camadas, conceitos de Orientação a Objetos (OO), e as potencialidades da UML.
 
 **Descrição da Atividade:**
 

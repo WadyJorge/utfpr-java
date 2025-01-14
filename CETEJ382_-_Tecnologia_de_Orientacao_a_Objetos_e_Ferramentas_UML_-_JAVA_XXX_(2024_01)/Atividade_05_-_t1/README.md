@@ -3,7 +3,7 @@
 ## Atividade 05 - Trabalho - t1.asta
 
 **Objetivo:**  
-Desenvolver um trabalho que promove a construção de diagramas utilizando UML, com foco na consistência sintática, semântica e arquitetônica. Este trabalho será objeto de discussões na segunda web conferência.
+- Desenvolver um trabalho que promove a construção de diagramas utilizando UML, com foco na consistência sintática, semântica e arquitetônica. Este trabalho será objeto de discussões na segunda web conferência.
 
 **Descrição da Atividade:**
 

@@ -3,7 +3,7 @@
 ## Avaliação 1ª. Chamada
 
 **Descrição da Atividade:**
-Esta avaliação é **dissertativa**. 
+- Esta avaliação é **dissertativa**. 
 
 - Vocês estão autorizados a consultar todo o material digital disponibilizado no Moodle.
 - Para confeccionar os diagramas, utilize a ferramenta **Astah**.
