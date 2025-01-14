@@ -3,7 +3,7 @@
 ## Atividade 03 - a3.asta
 
 **Descrição da Atividade:**
-- Vamos trabalhar com um diagrama que contém dois casos de uso:
+Vamos trabalhar com um diagrama que contém dois casos de uso:
 
 1. **Caso de uso 1**: Manter informações de Equipes de Futebol.
 2. **Caso de uso 2**: Manter informações de Países.
