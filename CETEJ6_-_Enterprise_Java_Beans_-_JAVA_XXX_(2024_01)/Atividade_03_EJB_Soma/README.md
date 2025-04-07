@@ -7,5 +7,3 @@
 
 **Forma de Envio:**
 - A atividade deve ser entregue em um arquivo compactado no formato `.zip`.
-
----

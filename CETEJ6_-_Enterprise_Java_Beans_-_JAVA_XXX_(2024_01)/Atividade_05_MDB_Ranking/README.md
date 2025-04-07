@@ -9,5 +9,3 @@ Implemente um **Message Driven Beans** (MDB) para realizar essa tarefa.
 
 **Forma de Envio:**
 - A atividade deve ser entregue em um arquivo compactado no formato `.zip`.
-
----

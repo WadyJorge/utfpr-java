@@ -11,5 +11,3 @@
 **Orientação para Participantes:**
 - Para os alunos presentes na WebConf: **Não é necessário enviar a atividade**. A nota 100 será atribuída diretamente.
 - Para os alunos ausentes na WebConf: **Realizar e enviar a atividade conforme as instruções acima**.
-
----
