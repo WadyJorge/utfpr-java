@@ -5,9 +5,11 @@
 **Descrição da Atividade:**
 - Criar dois projetos utilizando o **NetBeans**:
   - **Projeto 1 (Servidor):** Um WebService com um método para somar dois números inteiros:  
+    
     ```java
     int somar(int v1, int v2);
     ```
+  
   - **Projeto 2 (Cliente):** Um aplicativo Java que consuma esse WebService, utilizando qualquer tecnologia Java à sua escolha, como:
     - Web (Servlets, JSP)
     - JSF
