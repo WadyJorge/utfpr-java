@@ -1,7 +1,7 @@
 <h1 align="center"> Especialização em Tecnologia Java - J30 - 2024</h1>
 
 <p align="center">
-  <img src="/images/utfpr-logo.png" alt="Logo UTFPR" width="360px"/>
+  <img src="images/utfpr-logo.png" alt="Logo UTFPR" width="360px"/>
   <br><br>
   <em>Curso de Especialização em Tecnologia Java<br>
   Universidade Tecnológica Federal do Paraná (UTFPR)</em>
