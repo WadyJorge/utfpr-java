@@ -1,18 +1,43 @@
-<div style="text-align:center;">
-  <img src="/Images/UTFPR_-_Logo.png" alt="Logo UTFPR" width="448" height="224"/>
-</div>
+<h1 align="center"> Especialização em Tecnologia Java - J30 - 2024</h1>
 
-# Especialização Java XXX - 2024
+<p align="center">
+  <img src="Images/utfpr-logo.png" alt="Logo UTFPR" width="360px"/>
+  <br><br>
+  <em>Curso de Especialização em Tecnologia Java<br>
+  Universidade Tecnológica Federal do Paraná (UTFPR)</em>
+  <br><br>
+  <a href="https://pos-graduacao-ead.cp.utfpr.edu.br/java/" target="_blank">
+    <strong>🔗 Site Oficial</strong>
+  </a>
+</p>
 
-📚 Este repositório contém os exercícios desenvolvidos durante a Especialização Lato Sensu em Tecnologia Java da Universidade Tecnológica Federal do Paraná (UTFPR). Cada pasta corresponde a uma atividade específica, abordando conceitos como programação orientada a objetos, redes de computadores, UML, banco de dados e mais.
+<hr>
 
-🚀 Objetivo: Consolidar conhecimentos práticos em desenvolvimento Java, aplicando técnicas e ferramentas modernas.
+## Disciplinas
 
-Inclui:
+### 1º Bloco
 
-- Exercícios práticos.
-- Projetos cliente-servidor.
-- Modelagem UML.
-- Documentação detalhada.
+- Linguagem de Programação Java I (`java-i`)
+- Tecnologia de Orientação a Objetos e Ferramentas UML (`oo-uml`)
+- Integração Contínua (`devops`)
 
-[Pós EAD em JAVA - UTFPR - Site Institucional](https://pos-graduacao-ead.cp.utfpr.edu.br/java/#:~:text=Diferenciais%20da%20UTFPR&text=Seja%20especialista%20em%20Java%20no,alinhados%20%C3%A0s%20necessidades%20do%20mercado.&text=Prepare%2Dse%20para%20a%20certifica%C3%A7%C3%A3o,treinamentos%20oficiais%20da%20Oracle%20Academy.)
+### 2º Bloco
+
+- Linguagem de Programação Java II (`java-ii`)
+- Sistemas de Banco de Dados (`banco`)
+
+### 3º Bloco
+
+- Java Web (`web`)
+- Enterprise Java Beans (`ejb`)
+- Java Aplicado a Redes de Computadores (`redes`)
+
+### 4º Bloco
+
+- Desenvolvimento Java para Dispositivos Móveis (`android`)
+- XML e Web Services (`webservices`)
+
+### 5º Bloco
+
+- Teste de Software (`testsoft`)
+- Frameworks Web (`frameworks`)
